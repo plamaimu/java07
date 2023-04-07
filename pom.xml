@@ -1,0 +1,31 @@
+<project>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>my-company</groupId>
+    <artifactId>jave-07</artifactId>
+    <version>0.15</version>
+    <build>
+		<sourceDirectory>code</sourceDirectory>
+		<testSourceDirectory>test</testSourceDirectory>
+                <resources>
+                    <resource>
+                        <directory>data</directory>
+                    </resource>
+                </resources>
+    </build>
+    <dependencies>
+		<dependency>
+		    <groupId>org.springframework</groupId>
+			<artifactId>spring-core</artifactId>
+			<version>RELEASE</version>
+		</dependency>
+		<dependency>
+		    <groupId>org.springframework</groupId>
+			<artifactId>spring-context</artifactId>
+			<version>RELEASE</version>
+		</dependency>
+    </dependencies>
+	<properties>
+		<maven.complier.source>20</maven.complier.source>
+		<maven.complier.target>20</maven.complier.target>
+	</properties>
+</project>
